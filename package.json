@@ -1,15 +1,43 @@
 {
-  "name": "learn-starter",
+  "name": "jll_app_nextjs",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "debug": "NODE_OPTIONS='--inspect' next dev",
+    "test": "jest --silent --coverage=false --detectOpenHandles",
+    "test:verbose": "jest --coverage=false --detectOpenHandles",
+    "test:coverage": "jest --silent --coverage=true --detectOpenHandles"
   },
   "dependencies": {
+    "@reactchartjs/react-chart.js": "^1.0.0-rc.2",
+    "@types/jest": "^26.0.15",
+    "@types/js-cookie": "^2.2.6",
+    "@types/react-toast-notifications": "^2.4.0",
+    "chart.js": "^2.9.4",
+    "js-cookie": "^2.2.1",
     "next": "^10.0.0",
+    "performance-now": "^2.1.0",
+    "query-string": "^6.13.7",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-charts": "^2.0.0-beta.7",
+    "react-dom": "16.13.1",
+    "react-hook-form": "^6.11.0",
+    "react-toast-notifications": "^2.4.0",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^11.1.1",
+    "@types/node": "^14.14.6",
+    "@types/react": "^16.9.56",
+    "@types/styled-components": "^5.1.4",
+    "babel-plugin-styled-components": "^1.11.1",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^26.6.3",
+    "react-test-renderer": "^17.0.1",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.5"
   }
 }
