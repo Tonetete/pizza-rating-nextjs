@@ -83,9 +83,10 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
         method: "GET",
       }
     );
-    response.length && res.status(200).json({ response });
+    response.length
+      ? res.status(200).json({ response })
+      : res.status(404).json({ response: "Not Found" });
   }
-  !response && res.status(404).json({ response: "Not Found" });
 };
 
 export default handler;
