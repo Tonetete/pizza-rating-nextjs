@@ -1,0 +1,147 @@
+{
+  "pizzas": [
+    {
+      "id": 1,
+      "title": "4 cheeses",
+      "image": "/images/4cheeses.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Barbecue",
+      "image": "/images/barbecue.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Pepperoni",
+      "image": "/images/pepperoni.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Stromboli",
+      "image": "/images/stromboli.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Sicilian",
+      "image": "/images/sicilian.jpg"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Antonio",
+      "username": "antonio",
+      "password": 1234
+    },
+    {
+      "id": 2,
+      "name": "David",
+      "username": "david",
+      "password": 1234
+    },
+    {
+      "name": "Example",
+      "username": "example",
+      "password": "1234",
+      "id": 3
+    },
+    {
+      "name": "Javier",
+      "username": "javier",
+      "password": "1234",
+      "id": 4
+    },
+    {
+      "name": "juan",
+      "username": "juan",
+      "password": "1234",
+      "id": 5
+    },
+    {
+      "name": "María",
+      "username": "maria",
+      "password": "1234",
+      "id": 6
+    },
+    {
+      "name": "Jorge",
+      "username": "jorge",
+      "password": "1234",
+      "id": 7
+    },
+    {
+      "name": "Guille",
+      "username": "guille",
+      "password": "1234",
+      "id": 8
+    },
+    {
+      "name": "Israel",
+      "username": "israel",
+      "password": "1234",
+      "id": 9
+    },
+    {
+      "name": "Miriam",
+      "username": "miriam",
+      "password": "1234",
+      "id": 10
+    },
+    {
+      "name": "Pepe",
+      "username": "pepe",
+      "password": "1234",
+      "id": 11
+    },
+    {
+      "name": "Miguel",
+      "username": "miguel",
+      "password": "1234",
+      "id": 12
+    }
+  ],
+  "votes": [
+    {
+      "pizzaId": 3,
+      "userId": 9,
+      "votes": 4,
+      "id": 1
+    },
+    {
+      "pizzaId": 2,
+      "userId": 9,
+      "votes": 4,
+      "id": 2
+    },
+    {
+      "pizzaId": 5,
+      "userId": 9,
+      "votes": 1,
+      "id": 3
+    },
+    {
+      "pizzaId": 4,
+      "userId": 7,
+      "votes": 5,
+      "id": 4
+    },
+    {
+      "pizzaId": 1,
+      "userId": 7,
+      "votes": 3,
+      "id": 5
+    },
+    {
+      "pizzaId": 1,
+      "userId": 1,
+      "votes": 3,
+      "id": 6
+    },
+    {
+      "pizzaId": 1,
+      "userId": 3,
+      "votes": 3,
+      "id": 7
+    }
+  ]
+}
