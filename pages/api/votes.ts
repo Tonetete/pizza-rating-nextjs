@@ -75,7 +75,7 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
         }),
       }
     );
-    res.status(200).json({ response });
+    response && res.status(200).json({ response });
   } else {
     response = await callApi(
       `${SERVER_URL}/votes${queryParams ? `?${queryParams}` : ``}`,
@@ -83,7 +83,7 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
         method: "GET",
       }
     );
-    res.status(200).json({ response });
+    response.length && res.status(200).json({ response });
   }
   res.status(404).json({ response: "Not Found" });
 };
